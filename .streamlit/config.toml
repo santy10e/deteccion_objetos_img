@@ -1,0 +1,25 @@
+[server]
+# Debe coincidir con MAX_UPLOAD_MB en core/config.py
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+primaryColor = "#635BFF"
+backgroundColor = "#F7F8FA"
+secondaryBackgroundColor = "#F1F2F5"
+textColor = "#17191C"
+linkColor = "#4F46E5"
+borderColor = "#E5E7EB"
+showWidgetBorder = true
+baseRadius = "10px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F7F8FA"

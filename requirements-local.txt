@@ -1,0 +1,9 @@
+# Inferencia local (Space de Hugging Face o servidor propio): no consume créditos de API.
+# En CPU, instala antes torch desde el índice CPU para evitar la versión con CUDA:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+-r requirements.txt
+torch
+transformers
+timm
+sentencepiece
+sacremoses
